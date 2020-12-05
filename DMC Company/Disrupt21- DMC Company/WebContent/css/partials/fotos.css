@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+ul#album-fotos {
+    width: 1000px;
+    margin: auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#album-fotos img {
+    width: 240px;
+    height: 240px;
+}
+ul#album-fotos li {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+    transition: 0.2s;
+}
+ul#album-fotos li:hover {
+    transform: scale(1.5);
+}
+ul#album-fotos li span {
+    font-family: 'Patua One', cursive;
+    color: #fff;
+    opacity: 0;
+    font-size: 9pt;
+    display:flex;
+    justify-content: center;
+    
+   	position: absolute;
+  	top: 220px;
+  	right: auto;
+}
+ul#album-fotos li:hover  span {
+    opacity: 1;
+}

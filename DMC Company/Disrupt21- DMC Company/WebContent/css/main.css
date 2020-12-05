@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(to top, #780206aa, #061161);
+    /*background-image: url("../images/backgroundDiv.jpg");*/
+    background-size: cover;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #3c3d41;
+    align-items: center;
+}
+
+.header .imgLogo{
+    max-height: 70px;
+    margin: 0 6vw;
+}
+.header nav li img {
+    max-height: 30px;
+}
+
+.header nav{
+  width: 40%;
+  align-items: center;
+  margin: 0 2.5% 0 0;
+}
+
+.header nav ul, #divBandeiras {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+
+
+}
+
+.header nav ul li {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.header nav ul li a{
+    font-family: 'Rubik', sans-serif;
+    padding: 1%;
+    color: #fff;
+    margin: 1%;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.header nav .dropdown-menu {
+	width: 40%;
+}
+.header nav .dropdown-menu .dropdown-item {
+	font-family: 'Rubik', sans-serif;
+	text-decoration: none;
+	color: #3c3d41;
+	
+	padding: 0 5%
+}
+main .principal {
+	background: linear-gradient(to top, #780206aa, #061161);
+    /*background-image: url("../images/backgroundDiv.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#myFooter .container .row .col-sm-3 img {
+    width: 8vw;
+}
+
+/* Modelar scrollbar nas p�ginas */
+::-webkit-scrollbar-track {
+    background-color: #797979;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #3c3d41;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3c3d41;
+}
+
+@media screen and (max-width: 1070px){
+	.header nav ul{
+	  flex-direction: column;
+	}
+	.header nav{
+	  max-width: 150px;
+	  margin: 2.5% 0;
+	} 
+	.header nav ul li, .header .btn-group{
+	  height: 40px;
+	  padding-left: 10px;
+	}
+	.header nav ul li:hover{
+	  border-radius: 8px;
+	  background: linear-gradient(to top,  #000000, #434343);
+	}
+	.header .imgLogo{
+	  min-height: 120px;
+	}
+	#myFooter .row {
+		display: flex;
+		justify-content: center;
+	}
+}

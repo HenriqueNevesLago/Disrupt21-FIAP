@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+#sobreNos, #sobreProjeto{
+  display: flex;
+  justify-content: space-around;
+}
+
+#sobreNos, #sobreProjeto{
+  min-height: 300px;
+  align-items: center;
+}
+
+#sobreNos img{
+  margin: 0 10%;
+  max-height: 210px;
+  border-radius: 20px;
+  border: #000 double 3px;
+}
+
+#sobreNos section p, #sobreProjeto section p{
+  width: 70%;
+  margin: 2% auto;
+  font-family: 'Comic Neue', cursive;
+  font-size: 1.3em;
+  color: #fff;
+}
+
+#sobreProjeto section p{
+  color: #fff;
+}
+
+#sobreProjeto{
+  background-color: #555a;
+}
+
+#sobreProjeto img{
+  margin: 0 10%;
+  max-height: 210px;
+  border-radius: 9px 31px;
+  border: #000 double 8px;
+}
+@media screen and (max-width: 1070px){
+	#sobreNos, #sobreProjeto {
+		padding: 4%;
+	}
+	#sobreNos, #sobreProjeto {
+		display: flex;
+		flex-direction: column;	
+		justify-content: center;
+	}
+	#sobreNos section p, #sobreProjeto section p {
+		width: 90%;
+		text-align:justify; 
+		
+		padding: 2%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.estrada img {
+    display: flex;
+    justify-content: center;
+
+    margin: 3% auto;
+}
+main ul {
+    margin: auto;
+}
+main .titulo {
+    display: flex;
+    justify-content: center;
+
+    padding: 3% 0 0 0;
+}
+main h2 {
+    font-family: 'Montserrat', sans-serif;
+    
+    color: #fff;
+}
+.relacionamento {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    padding: 1% 0 4% 0;
+}
+.relacionamento img {
+	padding: 3%;
+}
+main .principal .estrada #anosFilme {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 400px;
+    margin: 0 auto;
+}
+main .principal .estrada #anosFilme a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    white-space: nowrap;
+    margin: 0 2%;
+}
+.anosFilme .divGroup{
+	margin: 3% 10%;
+	display: flex;
+	width: 10vw;
+}
+.divGroup button{
+	font-size: 1.3em;
+	border: solid #000 2px;
+	padding: 20% 48% 20%;
+}
+#id1955{
+	background: #8BB8C6;
+	color: #444;
+}
+#id1985{
+	background: #F98423;
+}
+.ano{
+	width: 300px;
+	/*background: linear-gradient(to top, #2c3e50, #fd746c);*/
+	background: #120a26;
+}
+@media screen and (max-width: 1010px){
+	#idTimeline{
+	  max-width: 75%;
+	}
+}

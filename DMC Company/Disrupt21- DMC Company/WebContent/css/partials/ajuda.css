@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+.header {
+    margin-bottom: 2%;
+}
+.main {
+    font-family: 'Montserrat', sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around; 
+    /* acrescentei isso aqui porque quando escolhe espanhol o formulário fica muito pequeno, acaba indo muito pro canto; assim fica mais distribuído */
+    
+    align-items: center;
+    
+}
+.duvidasFrequentes p {
+    font-size: 26px;
+    color: #fff;
+}
+.duvidasFrequentes {
+    /*margin: auto;
+    comentei essa margem pro justify lá de cima dar certo
+    PS.: não consegui testar porque o eclipse é uma bosta e não atualiza a porra do css, então se ficou cagado é só tirar o comentário dessa margem e apagar 
+    o justify que volta como tava antes
+    */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+
+    width: 40%;
+
+}
+
+.duvidasFrequentes .panel-group, .duvidasFrequentes .panel-heading, .duvidasFrequentes .panel-body{
+	min-width: 570px;
+}
+
+/* Formulario */
+.main .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 45vw;
+    min-width: 45vw;
+}
+.main .formulario p {
+   color: #ffffffe5;
+
+   font-size: 20px;
+   text-align: center;
+
+}
+
+.main .formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #ffffff36;
+
+    max-width: 90%;
+    padding: 2%;
+    
+    border-radius: 15px;
+}
+
+.main .formulario form input, textarea {
+
+    border: 0;
+    border-radius: 5px;
+
+    width: 80%;
+
+    padding: 2%;
+    margin: 3%;
+}
+.main .formulario form textarea {
+    height: 20vh;
+    resize: none;
+}
+.main .formulario form #idBtn {
+    background-color: #faa441c4;
+    width: 30%;
+}
+.main .formulario form .spanValidacao {
+    color: #ffffffc7;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 1310px){
+	.main{
+	  display: flex;
+	  flex-direction: column;
+	}
+	.main .duvidasFrequentes{
+	  margin-bottom: 2%;
+	}
+}
